@@ -33,7 +33,7 @@ function App() {
           autocomplete="off"
         ></input>
       </nav>
-      <main onClick={(e) => setModelOpen(false)}>
+      <main>
         <div className="container">
           {linksToShow.length === 0 ? (
             <center>
@@ -60,6 +60,58 @@ function App() {
           )}
         </div>
       </main>
+      <dialog
+        open={modelOpen ? true : false}
+        onBlur={(e) => (e.target.open = false)}
+        id="model"
+      >
+        <center>
+          <form
+            action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c"
+            method="POST"
+            className="form-cls"
+          >
+            <input
+              placeholder="Search"
+              onFocus={(e) => (e.target.placeholder = " ")}
+              onBlur={(e) => (e.target.placeholder = "Search")}
+              type="text"
+              name="name"
+              className="search-box"
+            />
+            <input
+              placeholder="Search"
+              onFocus={(e) => (e.target.placeholder = " ")}
+              onBlur={(e) => (e.target.placeholder = "Search")}
+              type="email"
+              name="email"
+              className="search-box"
+            />
+            <input
+              placeholder="Search"
+              onFocus={(e) => (e.target.placeholder = " ")}
+              onBlur={(e) => (e.target.placeholder = "Search")}
+              type="text"
+              name="tel"
+              className="search-box"
+            />
+            <button
+              type="submit"
+              onClick={(e) => e.preventDefault()}
+              className="search-box"
+            >
+              Send
+            </button>
+            <button
+              type="button"
+              onClick={(e) => setModelOpen(false)}
+              className="search-box"
+            >
+              Close
+            </button>
+          </form>
+        </center>
+      </dialog>
       <footer>
         <i
           className="fa fa-plus float"
@@ -68,21 +120,6 @@ function App() {
             setModelOpen(!modelOpen);
           }}
         ></i>
-        <dialog
-          open={modelOpen ? true : false}
-          onBlur={(e) => (e.target.open = false)}
-          id="model"
-        >
-          <form
-            action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c"
-            method="POST"
-          >
-            <input type="text" name="name" />
-            <input type="email" name="email" />
-            <input type="text" name="tel" />
-            <button type="submit" onClick={ e => e.preventDefault()}>Send</button>
-          </form>
-        </dialog>
       </footer>
     </div>
   );
