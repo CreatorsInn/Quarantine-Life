@@ -20,6 +20,89 @@ div {
   width: 100%;
 }
 
-main{
+main {
   overflow: hidden;
+}
+
+/*====================================================================
+                    MEDIA QUERIES                        
+======================================================================*/
+
+/*Large -1200px Devices*/
+@media (min-width: 1200px) {
+  /*ok*/
+}
+
+/*=============================================================================*/
+
+/*medium -992px Devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .search-box {
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    text-align: center;
+    border-radius: 36px;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.25%;
+  }
+  .search-box:focus {
+    outline: none;
+  }
+}
+/*========================================================================*/
+
+/*Small -768px Devices*/
+@media (min-width: 481px) and (max-width: 991px) {
+  .search-box {
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    text-align: center;
+    border-radius: 36px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.25%;
+  }
+  .search-box:focus {
+    outline: none;
+  }
+}
+
+/*==========================================================================*/
+/*Extra small  -480px Devices*/
+@media (max-width: 480px) {
+  .search-box {
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    text-align: center;
+    border-radius: 36px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.25%;
+  }
+  .search-box:focus {
+    outline: none;
+  }
+}
+
+/*==========================================================================*/
+/*Extra small  -360px Devices*/
+@media (max-width: 360px) {
+  .search-box {
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    text-align: center;
+    border-radius: 36px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.25%;
+  }
+  .search-box:focus {
+    outline: none;
+  }
 }

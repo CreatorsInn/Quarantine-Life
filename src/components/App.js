@@ -2,36 +2,35 @@ import React from "react";
 import links from "../data/links";
 import "../components/App.css";
 
-const handleChange = (e,setLinksToShow) => { 
+const handleChange = (e, setLinksToShow) => {
   e.preventDefault();
   const searchString = document
     .getElementById("searchText")
     .value.toString()
     .toLowerCase();
-  const linksToShow = links.filter(link => link.NAME.toLowerCase().includes(searchString));
-  console.log(linksToShow)
-  setLinksToShow(linksToShow)
-}
+  const linksToShow = links.filter((link) =>
+    link.NAME.toLowerCase().includes(searchString)
+  );
+  console.log(linksToShow);
+  setLinksToShow(linksToShow);
+};
 
 function App() {
-
   const [linksToShow, setLinksToShow] = React.useState(links);
 
   return (
     <div>
       <nav className="navbar sticky-top navbar-drak bg-light nav">
-        <form className="form-cls">
-          <input
-            placeholder="Search"
-            onFocus={e => (e.target.placeholder = " ")}
-            onBlur={e => (e.target.placeholder = "Search")}
-            onChange={e => handleChange(e, setLinksToShow)}
-            className="search-box mx-auto "
-            type="text"
-            id="searchText"
-            autocomplete="off"
-          ></input>
-        </form>
+        <input
+          placeholder="Search"
+          onFocus={(e) => (e.target.placeholder = " ")}
+          onBlur={(e) => (e.target.placeholder = "Search")}
+          onChange={(e) => handleChange(e, setLinksToShow)}
+          className="search-box mx-auto "
+          type="text"
+          id="searchText"
+          autocomplete="off"
+        ></input>
       </nav>
       <main>
         <div className="container">
@@ -40,7 +39,7 @@ function App() {
               <h6 class="card-title">Not Found</h6>
             </center>
           ) : (
-            linksToShow.map(link => (
+            linksToShow.map((link) => (
               <div className="row">
                 <div className="text-center">
                   <div className="card mt-3">
