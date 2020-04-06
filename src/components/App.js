@@ -63,8 +63,4 @@ function App() {
   );
 }
 
-// {links.map((link) => (
-//   <div>{link.NAME + " " + link.LINK}</div>
-// ))}
-
 export default App;
