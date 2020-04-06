@@ -38,10 +38,15 @@ main {
 }
 
 dialog {
-  position: absolute;
-  border: solid 2;
-  margin: 0% 0% 0% 0%;
-  width: 50%;
+  position: fixed;
+   border: 1px solid rgba(163, 160, 164, 0.85);
+  margin: -50% 0% 0% 35%;
+  width: 30%;
+  height: 30%;
+}
+
+.inputWidth {
+  width: 80%;;
 }
 
 /*====================================================================

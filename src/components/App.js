@@ -21,10 +21,13 @@ function App() {
 
   return (
     <div>
-      <nav className="navbar sticky-top navbar-drak bg-light nav">
+      <nav
+        className="navbar sticky-top navbar-drak bg-light nav"
+        onClick={(e) => setModelOpen(false)}
+      >
         <input
           placeholder="Search"
-          onFocus={(e) => (e.target.placeholder = " ")}
+          onFocus={(e) => (e.target.placeholder = "")}
           onBlur={(e) => (e.target.placeholder = "Search")}
           onChange={(e) => handleChange(e, setLinksToShow)}
           className="search-box mx-auto "
@@ -33,7 +36,7 @@ function App() {
           autocomplete="off"
         ></input>
       </nav>
-      <main>
+      <main onClick={(e) => setModelOpen(false)}>
         <div className="container">
           {linksToShow.length === 0 ? (
             <center>
@@ -64,6 +67,7 @@ function App() {
         open={modelOpen ? true : false}
         onBlur={(e) => (e.target.open = false)}
         id="model"
+        onClick={(e) => e.preventDefault()}
       >
         <center>
           <form
@@ -71,41 +75,44 @@ function App() {
             method="POST"
             className="form-cls"
           >
+            <label className="mt-2 mb-2 inputWidth">
+              Have any requests ? Let us know.
+            </label>
+            <br />
+            <label className="mt-2 mb-2 inputWidth">
+              Have any Links ? Join us now.
+            </label>
             <input
-              placeholder="Search"
-              onFocus={(e) => (e.target.placeholder = " ")}
-              onBlur={(e) => (e.target.placeholder = "Search")}
               type="text"
               name="name"
-              className="search-box"
-            />
+              className="form-control mt-2 mb-2 inputWidth"
+              id="formGroupExampleInput"
+              placeholder="Media Name"
+              onFocus={(e) => (e.target.placeholder = "")}
+              onBlur={(e) => (e.target.placeholder = "Media Name")}
+              autocomplete="off"
+            ></input>
             <input
-              placeholder="Search"
-              onFocus={(e) => (e.target.placeholder = " ")}
-              onBlur={(e) => (e.target.placeholder = "Search")}
-              type="email"
-              name="email"
-              className="search-box"
-            />
-            <input
-              placeholder="Search"
-              onFocus={(e) => (e.target.placeholder = " ")}
-              onBlur={(e) => (e.target.placeholder = "Search")}
               type="text"
-              name="tel"
-              className="search-box"
-            />
+              name="name"
+              className=" form-control mt-2 mb-2 inputWidth"
+              id="formGroupExampleInput"
+              placeholder="Link ( if Any )"
+              onFocus={(e) => (e.target.placeholder = "")}
+              onBlur={(e) => (e.target.placeholder = "Link ( if Any )")}
+              autocomplete="off"
+            ></input>
             <button
               type="submit"
               onClick={(e) => e.preventDefault()}
-              className="search-box"
+              className="mx-2 mt-3"
             >
               Send
             </button>
             <button
               type="button"
               onClick={(e) => setModelOpen(false)}
-              className="search-box"
+              className="mx-2 mt-3"
             >
               Close
             </button>
