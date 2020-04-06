@@ -17,6 +17,7 @@ const handleChange = (e, setLinksToShow) => {
 
 function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
+  const [modelOpen, setModelOpen] = React.useState(false);
 
   return (
     <div>
@@ -32,7 +33,7 @@ function App() {
           autocomplete="off"
         ></input>
       </nav>
-      <main>
+      <main onClick={(e) => setModelOpen(!modelOpen)}>
         <div className="container">
           {linksToShow.length === 0 ? (
             <center>
@@ -61,36 +62,27 @@ function App() {
       </main>
       <footer>
         <i
-          class="fa fa-plus float"
-          onClick={(e) => console.log("Clicked")}
-          aria-hidden="true"
-          data-toggle="modal"
-          data-target="#model"
+          className="fa fa-plus float"
+          onClick={(e) => {
+            e.preventDefault();
+            setModelOpen(!modelOpen);
+          }}
         ></i>
-        <div
-          class="modal fade"
+        <dialog
+          open={modelOpen ? true : false}
+          onBlur={(e) => (e.target.open = false)}
           id="model"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">
-                  Contribute
-                </h5>
-                <form action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c" method="POST" >
-                  <input type="text" name="name"/>
-                  <input type="email" name="email"/>
-                  <input type="text" name="tel"/>
-                  <button type="submit">Send</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+          <form
+            action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c"
+            method="POST"
+          >
+            <input type="text" name="name" />
+            <input type="email" name="email" />
+            <input type="text" name="tel" />
+            <button type="submit" onClick={ e => e.preventDefault()}>Send</button>
+          </form>
+        </dialog>
       </footer>
     </div>
   );
