@@ -24,6 +24,19 @@ main {
   overflow: hidden;
 }
 
+.float {
+  position: fixed;
+   right: 0;
+   bottom: 0;
+   margin: 3%;
+   width: 100%;
+   color: black;
+   text-align: right;
+  position: fixed;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
 /*====================================================================
                     MEDIA QUERIES                        
 ======================================================================*/

@@ -59,6 +59,39 @@ function App() {
           )}
         </div>
       </main>
+      <footer>
+        <i
+          class="fa fa-plus float"
+          onClick={(e) => console.log("Clicked")}
+          aria-hidden="true"
+          data-toggle="modal"
+          data-target="#model"
+        ></i>
+        <div
+          class="modal fade"
+          id="model"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">
+                  Contribute
+                </h5>
+                <form action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c" method="POST" >
+                  <input type="text" name="name"/>
+                  <input type="email" name="email"/>
+                  <input type="text" name="tel"/>
+                  <button type="submit">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
