@@ -33,7 +33,7 @@ function App() {
           autocomplete="off"
         ></input>
       </nav>
-      <main onClick={(e) => setModelOpen(!modelOpen)}>
+      <main onClick={(e) => setModelOpen(false)}>
         <div className="container">
           {linksToShow.length === 0 ? (
             <center>
