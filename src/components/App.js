@@ -41,8 +41,8 @@ function App() {
           ) : (
             linksToShow.map((link) => (
               <div className="row">
-                <div className="text-center">
-                  <div className="card mt-3">
+                <div className="text-center col">
+                  <div className="card mt-3 mb-3">
                     {" "}
                     <div className="card-body">
                       <center>
