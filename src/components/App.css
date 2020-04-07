@@ -134,7 +134,7 @@ dialog input {
     position: fixed;
     right: 0;
     bottom: 0;
-    margin: 3%;
+    margin: 10%;
     width: 5%;
     color: black;
     text-align: right;
@@ -146,9 +146,9 @@ dialog input {
   dialog {
     position: fixed;
     border: 1px solid rgba(163, 160, 164, 0.85);
-    margin: 15% 35% 15% 35%;
-    width: 50%;
-    height: 300px;
+    margin: 25%;
+    width: 45%;
+    height: 350px;
     z-index: 1;
   }
 
