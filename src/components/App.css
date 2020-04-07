@@ -103,7 +103,7 @@ dialog input {
 
 /*==========================================================================*/
 /*Extra small  -480px Devices*/
-@media (max-width: 480px) {
+@media (max-width: 490px) {
   .search-box {
     border: 1px solid rgba(163, 160, 164, 0.85);
     text-align: center;
@@ -117,11 +117,53 @@ dialog input {
   .search-box:focus {
     outline: none;
   }
+
+  .form-cls {
+    width: 100%;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  main {
+    overflow: hidden;
+  }
+
+  .float {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 3%;
+    width: 5%;
+    color: black;
+    text-align: right;
+    position: fixed;
+    font-size: xx-large;
+    cursor: pointer;
+  }
+
+  dialog {
+    position: fixed;
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    margin: 15% 35% 15% 35%;
+    width: 50%;
+    height: 300px;
+    z-index: 1;
+  }
+
+  dialog input {
+    position: relative;
+  }
+
+  .inputWidth {
+    width: 80%;
+  }
 }
 
 /*==========================================================================*/
-/*Extra small  -360px Devices*/
-@media (max-width: 360px) {
+/*Extra small  -390px Devices*/
+@media (max-width: 390px) {
   .search-box {
     border: 1px solid rgba(163, 160, 164, 0.85);
     text-align: center;
@@ -134,5 +176,47 @@ dialog input {
   }
   .search-box:focus {
     outline: none;
+  }
+
+  .form-cls {
+    width: 100%;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  main {
+    overflow: hidden;
+  }
+
+  .float {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10%;
+    width: 5%;
+    color: black;
+    text-align: right;
+    position: fixed;
+    font-size: xx-large;
+    cursor: pointer;
+  }
+
+  dialog {
+    position: fixed;
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    margin: 20%;
+    width: 60%;
+    height: 400px;
+    z-index: 1;
+  }
+
+  dialog input {
+    position: relative;
+  }
+
+  .inputWidth {
+    width: 80%;
   }
 }
