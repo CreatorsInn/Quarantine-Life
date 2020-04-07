@@ -84,6 +84,21 @@ const links = [
     LINK:
       "magnet:?xt=urn:btih:7c52c9ca8c8a3f575ff695842e80d4c308c598cf&dn=www.TamilRockers.ws%20-%20Brave%20(2012)%5dBDRIp%20-%20Org%20Auds%20-%20%5bTamil%20%2b%20Telugu%5d%20-%20x264%20-%20600MB%20-%20Esubs%5d.avi&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fxxxtor.com%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2fdenis.stalker.upeer.me%3a6969%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.demonii.si%3a1337%2fannounce",
   },
+  {
+    NAME: "Parasite (2019)",
+    LINK:
+      "https://yts.mx/torrent/download/A4C5D60F07F5A4E99623FB2C33D0E51F760B49A9",
+  },
+  {
+    NAME: "Ford v Ferrari (2019)",
+    LINK:
+      "https://yts.mx/torrent/download/E1C752000502246ECA8300E0D1A30841573AA325",
+  },
+  {
+    NAME: "Marriage Story (2019)",
+    LINK:
+      "https://yts.mx/torrent/download/FFB8B0C1047CBC9D241EF653755336E4EFD31CE8",
+  },
 ];
 
 export default links;
