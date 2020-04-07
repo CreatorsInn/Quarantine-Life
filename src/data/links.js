@@ -29,6 +29,11 @@ const links = [
     LINK:
       "magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
   },
+  {
+    NAME: "Game Of Thrones Season 08",
+    LINK:
+      "magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
+  },
 ];
 
 export default links;
