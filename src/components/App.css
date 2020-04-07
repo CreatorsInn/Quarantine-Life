@@ -155,7 +155,7 @@ dialog input {
   dialog {
     position: fixed;
     border: 1px solid rgba(163, 160, 164, 0.85);
-    margin: 25%;
+    margin: 10%;
     width: 45%;
     height: 350px;
     z-index: 1;
