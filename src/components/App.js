@@ -40,11 +40,10 @@ function App() {
         open={modelOpen ? true : false}
         onBlur={(e) => (e.target.open = false)}
         id="model"
-        onClick={(e) => e.preventDefault()}
       >
         <center>
           <form
-            action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c"
+            action="https://smartforms.dev/submit/5e8c9a23d7d0665194d11f18"
             method="POST"
             className="form-cls"
           >
@@ -57,7 +56,7 @@ function App() {
             </label>
             <input
               type="text"
-              name="name"
+              name="media"
               className="form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
               placeholder="Media Name"
@@ -67,7 +66,7 @@ function App() {
             ></input>
             <input
               type="text"
-              name="name"
+              name="link"
               className=" form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
               placeholder="Link ( if Any )"
@@ -77,7 +76,7 @@ function App() {
             ></input>
             <button
               type="submit"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => setModelOpen(false)}
               className="mx-2 mt-3"
             >
               Send
