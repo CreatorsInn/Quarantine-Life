@@ -40,6 +40,11 @@ const links = [
       "https://yts.mx/torrent/download/4B37249E7F82F60D94C7A15B743A6B624E640372",
   },
   {
+    NAME: "Pirates Of The Caribbean Pentalogy (2003 to 2017)",
+    LINK:
+      "magnet:?xt=urn:btih:5ADCA7E10458307965CAB645F9C7D3FC15C1D868&dn=www.TamilRockers.by%20-%20Pirates%20Of%20The%20Caribbean%20Pentalogy%20%282003%20to%202017%29%5b720p%20-%20BDRip%27s%20-%20%5bTamil%20%2b%20Tel%20%284%29%20%2b%20Hin%20%2b%20Eng%5d&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2730%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2750%2fannounce&tr=udp%3a%2f%2fpublic.popcorn-tracker.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.ch%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=http%3a%2f%2ftorrentsmd.com%3a8080%2fannounce",
+  },
+  {
     NAME: "Money Heist Season 04 (2020)",
     LINK:
       "magnet:?xt=urn:btih:a39c33c1bd3592033cce451fc2daf76fcf887873&dn=Money+Heist+%282020%29+English+S04+Complete+720p+NF+WEBRip+DD-5.1+ES&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80",
