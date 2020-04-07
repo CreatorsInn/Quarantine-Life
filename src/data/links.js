@@ -24,6 +24,11 @@ const links = [
     LINK:
       "magnet:?xt=urn:btih:a774386dfc2c48349640043b402e6a9d2e1d0e11&dn=Money+Heist+%28La+Casa+De+Papel%29+Complete+Season+1+English+HD+720p&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80",
   },
+  {
+    NAME: "Game Of Thrones ( Season 01 - 07 )",
+    LINK:
+      "magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
+  },
 ];
 
 export default links;
