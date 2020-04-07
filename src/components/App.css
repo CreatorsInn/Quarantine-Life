@@ -40,9 +40,10 @@ main {
 dialog {
   position: fixed;
    border: 1px solid rgba(163, 160, 164, 0.85);
-  margin: -50% 0% 0% 35%;
+  margin: 10% 0% 0% 35%;
   width: 30%;
   height: 30%;
+  z-index: 1;
 }
 
 .inputWidth {
