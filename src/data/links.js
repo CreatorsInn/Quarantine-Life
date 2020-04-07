@@ -109,6 +109,11 @@ const links = [
     LINK:
       "https://yts.mx/torrent/download/FFB8B0C1047CBC9D241EF653755336E4EFD31CE8",
   },
+  {
+    NAME: "John Wick Duology  (2014 - 2017)",
+    LINK:
+      "magnet:?xt=urn:btih:3897f30aa1438ece4e09067da47b5c32a7b5b2fe&dn=www.TamilRockers.ws%20-%20John%20Wick%20Duology%20%20(2014%20-%202017)%5b720p%20BDRip%20-%20Org%20Auds%20-%20%5bTamil%20%2b%20Telugu%20%2b%20Hin%20%2b%20Eng%5d%20-%20x264%20-%202GB%20-%20ESubs%5d&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.si%3a1337%2fannounce&tr=udp%3a%2f%2fxxxtor.com%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2fdenis.stalker.upeer.me%3a6969%2fannounce",
+  },
 ];
 
 export default links;
