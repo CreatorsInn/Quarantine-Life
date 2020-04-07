@@ -64,6 +64,11 @@ const links = [
     LINK:
       "magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
   },
+  {
+    NAME: "Toy Story 4 (2019)",
+    LINK:
+      "//magnet:?xt=urn:btih:26cd0e3e6705ecda4a366f97e165ffbbf292c13b&dn=www.TamilRockers.ws%20-%20Toy%20Story%204%20(2019)%5bBDRip%20-%20Org%20Auds%20-%20%5bTamil%20%2b%20Telugu%5d%20-%20XviD%20-%20MP3%20-%20700MB%20-%20ESubs%5d.avi&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.si%3a1337%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2fxxxtor.com%3a2710%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fdenis.stalker.upeer.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce",
+  },
 ];
 
 export default links;
