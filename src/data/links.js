@@ -1,5 +1,10 @@
 const links = [
   {
+    NAME: "Dia",
+    LINK:
+      "magnet:?xt=urn:btih:9633D324F8E05554E05E465E52E06117C34D3EBC&dn=www.TamilRockers.ws%20-%20Dia%20%282020%29%5bKannada%20720p%20HDRip%20-%20HEVC%20-%20AC3%205.1%20-%20x265%20-%20500MB%20-%20ESubs%5d.mkv&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fzer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.ilibr.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.sktorrent.net%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2720%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2740%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce",
+  },
+  {
     NAME: "Fight Club (1999)",
     LINK:
       "https://yts.mx/torrent/download/4B37249E7F82F60D94C7A15B743A6B624E640372",
