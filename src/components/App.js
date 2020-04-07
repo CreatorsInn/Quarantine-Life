@@ -100,8 +100,8 @@ function App() {
             </center>
           ) : (
             linksToShow.map((link) => (
-              <div className="row">
-                <div className="col-md-12">
+              <div className="row fullWidth">
+                <div className="col-md-12 fullWidth">
                   <div className="card  mt-3 mb-3">
                     {" "}
                     <div className="card-body">
@@ -119,15 +119,15 @@ function App() {
           )}
         </div>
       </main>
-      <footer>
-        <i
-          className="fa fa-plus float"
-          onClick={(e) => {
-            e.preventDefault();
-            setModelOpen(!modelOpen);
-          }}
-        ></i>
-      </footer>
+      {/* <footer> */}
+      <i
+        className="fa fa-plus float"
+        onClick={(e) => {
+          e.preventDefault();
+          setModelOpen(!modelOpen);
+        }}
+      ></i>
+      {/* </footer> */}
     </div>
   );
 }
