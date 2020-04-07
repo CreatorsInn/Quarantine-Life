@@ -26,12 +26,12 @@ main {
 
 .float {
   position: fixed;
-   right: 0;
-   bottom: 0;
-   margin: 3%;
-   width:5%;
-   color: black;
-   text-align: right;
+  right: 0;
+  bottom: 0;
+  margin: 3%;
+  width: 5%;
+  color: black;
+  text-align: right;
   position: fixed;
   font-size: xx-large;
   cursor: pointer;
@@ -39,15 +39,19 @@ main {
 
 dialog {
   position: fixed;
-   border: 1px solid rgba(163, 160, 164, 0.85);
-  margin: 10% 0% 0% 35%;
-  width: 30%;
-  height: 30%;
+  border: 1px solid rgba(163, 160, 164, 0.85);
+  margin: 15% 35% 15% 35%;
+  width: 40%;
+  height: 300px;
   z-index: 1;
 }
 
+dialog input {
+  position: relative;
+}
+
 .inputWidth {
-  width: 80%;;
+  width: 80%;
 }
 
 /*====================================================================
