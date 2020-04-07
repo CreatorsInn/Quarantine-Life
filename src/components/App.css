@@ -105,6 +105,16 @@ dialog input {
     position: relative;
     padding: 0.25%;
   }
+
+   dialog {
+    position: fixed;
+    border: 1px solid rgba(163, 160, 164, 0.85);
+    margin: 10%;
+    width: 80%;
+    height: 350px;
+    z-index: 1;
+  }
+
   .search-box:focus {
     outline: none;
   }
@@ -156,7 +166,7 @@ dialog input {
     position: fixed;
     border: 1px solid rgba(163, 160, 164, 0.85);
     margin: 10%;
-    width: 45%;
+    width: 80%;
     height: 350px;
     z-index: 1;
   }
