@@ -44,7 +44,7 @@ function App() {
       >
         <center>
           <form
-            action="https://smartforms.dev/submit/5e8b7264d7d0665194d11f0c"
+            action="https://smartforms.dev/submit/5e8c94fad7d0665194d11f17"
             method="POST"
             className="form-cls"
           >
@@ -58,7 +58,7 @@ function App() {
             <input
               type="text"
               style={{ textAlign: "center" }}
-              name="name"
+              name="media name"
               className="form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
               placeholder="Media Name"
@@ -68,7 +68,7 @@ function App() {
             ></input>
             <input
               type="text"
-              name="name"
+              name="link"
               style={{ textAlign: "center" }}
               className=" form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
