@@ -57,6 +57,7 @@ function App() {
             </label>
             <input
               type="text"
+              style={{ textAlign: "center" }}
               name="name"
               className="form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
@@ -68,6 +69,7 @@ function App() {
             <input
               type="text"
               name="name"
+              style={{ textAlign: "center" }}
               className=" form-control mt-2 mb-2 inputWidth"
               id="formGroupExampleInput"
               placeholder="Link ( if Any )"
