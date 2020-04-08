@@ -23,11 +23,9 @@
 }
 
 main {
-  margin: 0;
   padding: 0;
-  overflow: hidden;
-  margin: 0% 15%;
-  width: 70%;
+  margin: 0% 25%;
+  width: 50%;
 }
 
 .float {
@@ -66,6 +64,13 @@ main {
     position: relative;
     padding: 0.25%;
   }
+
+  main {
+  padding: 0;
+  margin: 0% 10%;
+  width: 80%;
+}
+
   .search-box:focus {
     outline: none;
   }
@@ -83,6 +88,12 @@ main {
     position: relative;
     padding: 0.25%;
   }
+
+  main {
+    padding: 0;
+    margin: 0% 5%;
+    width: 90%;
+ }
 
   .search-box:focus {
     outline: none;
