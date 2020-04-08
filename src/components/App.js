@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import links from "../data/links";
 import "../components/App.css";
 
@@ -15,9 +15,18 @@ const handleChange = (e, setLinksToShow) => {
   setLinksToShow(linksToShow);
 };
 
+const handleSubmit = () => { 
+
+}
+
 function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
   const [modelOpen, setModelOpen] = React.useState(false);
+
+  useEffect(() => {
+    let touchEvent = "ontouchstart" in window ? "touchstart" : "click";
+    document.getElementById("submit").addEventListener(touchEvent, handleSubmit);
+  });
 
   return (
     <div>
@@ -122,7 +131,7 @@ function App() {
                           }
                           autocomplete="off"
                         ></input>
-                        <button type="submit" className="mx-2 mt-3">
+                        <button type="submit" id="submit" className="mx-2 mt-3">
                           Send
                         </button>
                         <button
