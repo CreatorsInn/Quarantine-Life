@@ -37,7 +37,6 @@ function App() {
         ></input>
       </nav>{" "}
       <main>
-        <div className="container">
           {!modelOpen ? (
             <React.Fragment>
               {linksToShow.length === 0 ? (
@@ -148,7 +147,6 @@ function App() {
               </div>
             </div>
           )}
-        </div>
       </main>
       <i
         className="fa fa-plus float"
