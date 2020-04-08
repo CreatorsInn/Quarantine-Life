@@ -106,9 +106,9 @@ function App() {
                           autocomplete="off"
                         ></input>
                         <input
-                          type="hidden"
-                          name="_next"
-                          value="https://quarantine-life.now.sh/"
+                            type="hidden"
+                            name="_next"
+                            value={window.location.href}
                         ></input>
                         <input
                           type="hidden"
