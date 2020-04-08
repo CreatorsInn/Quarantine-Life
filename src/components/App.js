@@ -74,20 +74,20 @@ function App() {
               onBlur={(e) => (e.target.placeholder = "Link ( if Any )")}
               autocomplete="off"
             ></input>
-            <input
+            <button
               type="submit"
               onClick={(e) => setModelOpen(false)}
               className="mx-2 mt-3"
             >
               Send
-            </input>
-            <input
+            </button>
+            <button
               type="button"
               onClick={(e) => setModelOpen(false)}
               className="mx-2 mt-3"
             >
               Close
-            </input>
+            </button>
           </form>
         </center>
       </dialog>
