@@ -199,6 +199,11 @@ const links = [
     LINK:
       "https://yts.mx/torrent/download/25345F3DCA053325BDF2B1B244D62B08A88FB3FD",
   },
+  {
+    NAME: "Shutter Island (2010)",
+    LINK:
+      "https://yts.mx/torrent/download/6AADAA2244D31930B5674E846D1AD341B0176AF0",
+  },
 ];
 
 export default links;
