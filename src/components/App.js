@@ -115,8 +115,8 @@ function App() {
                           value="false"
                         ></input>
                         <label className="mt-2 mb-2 inputWidth">
-                          Wanna be notified ? Give you mail id or Social Media
-                          Usernames. W'll ping you onces you are served.
+                          Wanna be notified ? Give your mail id or Social Media
+                          username . We'll ping you once your request is served.
                         </label>
                         <input
                           type="text"
