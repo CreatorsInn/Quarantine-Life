@@ -85,6 +85,31 @@ const links = [
       "magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
   },
   {
+    NAME: "Vikings Season 05 ( 2019 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:C8C0F685C70D2E299494AE20F8948E9BAE3F0970&dn=Vikings+Season-05+Complete+720p+NETFLIX+WEB-DL+Dual+Audio+%5BHindi%2BEnglish%5D+AAC+DD-2.0+x264+Esub+Bongrockers+%28HDwebmovies%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
+    NAME: "Vikings Season 04 ( 2017 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:09D32A14B09A9BBC1CEB6AC3B5A7F3FDE9701640&dn=Vikings+Season-04+Complete+720p+NETFLIX+WEB-DL+Dual+Audio+%5BHindi%2BEnglish%5D+AAC+DD-2.0+x264+Esub+Bongrockers+%28HDwebmovies%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
+    NAME: "Vikings Season 03 ( 2015 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:EBB822ECF528A6E0DD96D88E35E94D163C4EEE00&dn=Vikings+Season-3+Complete+720p+NETFLIX+WEB-DL+Dual+Audio+%5BHindi%2BEnglish%5D+AAC+DD-2.0+x264+Esub+Bongrockers+HDwebmovies&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
+    NAME: "Vikings Season 02 ( 2014 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:CCB49C6C611EA751CD024521A315C8F7C018068D&dn=Vikings+Season-2+Complete+720p+NETFLIX+WEB-DL+Dual+Audio+%5BHindi%2BEnglish%5D+AAC+DD-2.0+x264+Esub+Bongrockers+%28HDwebmovies%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
+    NAME: "Vikings Season 01 ( 2013 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:579D9AB935DF3C0BE67104E011E42145729873FA&dn=Vikings+Season-1+Complete+720p+NETFLIX+WEB-DL+Dual+Audio+%5BHindi%2BEnglish%5D+AAC+DD-2.0+x264+Esub+Bongrockers+%28HDwebmovies%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2730%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
     NAME: "Ordinary Love (2019) ",
     LINK:
       "https://tamilrockers.ws/index.php?app=core&module=attach&section=attach&attach_id=56177",
