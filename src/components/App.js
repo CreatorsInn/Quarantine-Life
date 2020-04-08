@@ -15,8 +15,6 @@ const handleChange = (e, setLinksToShow) => {
   setLinksToShow(linksToShow);
 };
 
-const handleSubmit = () => {};
-
 function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
   const [modelOpen, setModelOpen] = React.useState(false);
@@ -74,7 +72,7 @@ function App() {
                     <center>
                       <h6 class="card-title">Contribute</h6>
                       <form
-                        action="https://formsubmit.co/sivaprakash138@gmail.com"
+                        action="https://formsubmit.co/quarantinelife.creators@gmail.com"
                         method="POST"
                         className="form-cls"
                       >
@@ -123,7 +121,7 @@ function App() {
                         </label>
                         <input
                           type="text"
-                          name="link"
+                          name="contact"
                           className=" form-control mt-2 mb-2 inputWidth"
                           id="formGroupExampleInput"
                           placeholder="Contact Id ( Optional )"
@@ -133,14 +131,7 @@ function App() {
                           }
                           autocomplete="off"
                         ></input>
-                        <button
-                          type="submit"
-                          id="submit"
-                          onSubmit={(e) => {
-                            handleSubmit(e);
-                          }}
-                          className="mx-2 mt-3"
-                        >
+                        <button type="submit" id="submit" className="mx-2 mt-3">
                           Send
                         </button>
                         <button
