@@ -74,6 +74,20 @@ function App() {
               onBlur={(e) => (e.target.placeholder = "Link ( if Any )")}
               autocomplete="off"
             ></input>
+            <label className="mt-2 mb-2 inputWidth">
+              Wanna be notified ? Give you mail id or Social Media Usernames.
+              W'll ping you onces you are served.
+            </label>
+            <input
+              type="text"
+              name="link"
+              className=" form-control mt-2 mb-2 inputWidth"
+              id="formGroupExampleInput"
+              placeholder="Contact Id ( Optional )"
+              onFocus={(e) => (e.target.placeholder = "")}
+              onBlur={(e) => (e.target.placeholder = "Contact Id ( Optional )")}
+              autocomplete="off"
+            ></input>
             <button
               type="submit"
               onClick={(e) => setModelOpen(false)}
