@@ -43,21 +43,6 @@ main {
   cursor: pointer;
 }
 
-dialog {
-  background-color: white;
-  position: fixed;
-  border: 1px solid rgba(163, 160, 164, 0.85);
-  margin: 10% 35%;
-  width: 30%;
-  -webkit-box-shadow: 0px 0px 30px 50px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.2);
-  height: 400;
-  z-index: 1;
-}
-
-dialog input {
-  position: relative;
-}
 
 .inputWidth {
   width: 80%;
@@ -81,6 +66,7 @@ dialog input {
     position: relative;
     padding: 0.25%;
   }
+<<<<<<< HEAD
 
   dialog {
     background-color: white;
@@ -94,6 +80,8 @@ dialog input {
     z-index: 1;
   }
 
+=======
+>>>>>>> origin/master
   .search-box:focus {
     outline: none;
   }
@@ -112,6 +100,7 @@ dialog input {
     padding: 0.25%;
   }
 
+<<<<<<< HEAD
   dialog {
     background-color: white;
     position: absolute;
@@ -124,12 +113,14 @@ dialog input {
     z-index: 1;
   }
 
+=======
+>>>>>>> origin/master
   .search-box:focus {
     outline: none;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 720px) {
   .search-box {
     border: 1px solid rgba(163, 160, 164, 0.85);
     text-align: center;
@@ -139,6 +130,7 @@ dialog input {
     position: relative;
     padding: 0.25%;
   }
+<<<<<<< HEAD
 
   dialog {
     background-color: white;
@@ -152,6 +144,8 @@ dialog input {
     z-index: 1;
   }
 
+=======
+>>>>>>> origin/master
   .search-box:focus {
     outline: none;
   }
@@ -198,6 +192,7 @@ dialog input {
     font-size: xx-large;
     cursor: pointer;
   }
+<<<<<<< HEAD
   dialog input {
     position: relative;
   }
@@ -217,6 +212,8 @@ dialog input {
   dialog button {
     position: relative;
   }
+=======
+>>>>>>> origin/master
 
   .inputWidth {
     width: 80%;
@@ -264,11 +261,6 @@ dialog input {
     font-size: xx-large;
     cursor: pointer;
   }
-
-  dialog input {
-    position: relative;
-  }
-
   .inputWidth {
     width: 80%;
   }

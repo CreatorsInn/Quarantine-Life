@@ -15,6 +15,8 @@ const handleChange = (e, setLinksToShow) => {
   setLinksToShow(linksToShow);
 };
 
+const handleSubmit = () => {};
+
 function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
   const [modelOpen, setModelOpen] = React.useState(false);
@@ -35,109 +37,128 @@ function App() {
           id="searchText"
           autocomplete="off"
         ></input>
-      </nav>
-      <dialog
-        open={modelOpen ? true : false}
-        onBlur={(e) => (e.target.open = false)}
-        id="model"
-      >
-        <center>
-          <form
-            action="https://formsubmit.co/sivaprakash138@gmail.com"
-            method="post"
-          >
-            <label className="mt-2 mb-2 inputWidth">
-              Have any requests ? Let us know.
-            </label>
-            <br />
-            <label className="mt-2 mb-2 inputWidth">
-              Have any Links ? Join us now.
-            </label>
-            <input
-              type="text"
-              name="media"
-              className="form-control mt-2 mb-2 inputWidth"
-              id="formGroupExampleInput"
-              placeholder="Media Name"
-              onFocus={(e) => (e.target.placeholder = "")}
-              onBlur={(e) => (e.target.placeholder = "Media Name")}
-              autocomplete="off"
-            ></input>
-            <input
-              type="text"
-              name="link"
-              className=" form-control mt-2 mb-2 inputWidth"
-              id="formGroupExampleInput"
-              placeholder="Link ( if Any )"
-              onFocus={(e) => (e.target.placeholder = "")}
-              onBlur={(e) => (e.target.placeholder = "Link ( if Any )")}
-              autocomplete="off"
-            ></input>
-            <input
-              type="hidden"
-              name="_next"
-              value="https://quarantine-life.now.sh/"
-            ></input>
-            <input type="hidden" name="_captcha" value="false"></input>
-            <label className="mt-2 mb-2 inputWidth">
-              Wanna be notified ? Give you mail id or Social Media Usernames.
-              W'll ping you onces you are served.
-            </label>
-            <input
-              type="text"
-              name="link"
-              className=" form-control mt-2 mb-2 inputWidth"
-              id="formGroupExampleInput"
-              placeholder="Contact Id ( Optional )"
-              onFocus={(e) => (e.target.placeholder = "")}
-              onBlur={(e) => (e.target.placeholder = "Contact Id ( Optional )")}
-              autocomplete="off"
-            ></input>
-            <button
-              type="submit"
-              onClick={(e) => setModelOpen(false)}
-              className="mx-2 mt-3"
-            >
-              Send
-            </button>
-            <button
-              type="button"
-              onClick={(e) => setModelOpen(false)}
-              className="mx-2 mt-3"
-            >
-              Close
-            </button>
-          </form>
-        </center>
-      </dialog>
-      <main onClick={(e) => setModelOpen(false)}>
+      </nav>{" "}
+      <main>
         <div className="container">
-          {linksToShow.length === 0 ? (
-            <center>
-              <h6 class="card-title">Not Found</h6>
-            </center>
-          ) : (
-            linksToShow.map((link) => (
-              <div className="row fullWidth">
-                <div className="col-md-12 fullWidth">
-                  <div className="card  mt-3 mb-3">
-                    {" "}
-                    <div className="card-body">
-                      <center>
-                        <h6 class="card-title">{link.NAME}</h6>
-                        <a href={link.LINK} className="card-link">
-                          Download
-                        </a>
-                      </center>
+          {!modelOpen ? (
+            <React.Fragment>
+              {linksToShow.length === 0 ? (
+                <center>
+                  <h6 class="card-title">Not Found</h6>
+                </center>
+              ) : (
+                linksToShow.map((link) => (
+                  <div className="row fullWidth">
+                    <div className="col-md-12 fullWidth">
+                      <div className="card  mt-3 mb-3">
+                        <div className="card-body">
+                          <center>
+                            <h6 class="card-title">{link.NAME}</h6>
+                            <a href={link.LINK} className="card-link">
+                              Download
+                            </a>
+                          </center>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                ))
+              )}
+            </React.Fragment>
+          ) : (
+            <div className="row fullWidth">
+              <div className="col-md-12 fullWidth">
+                <div className="card  mt-3 mb-3 ">
+                  {" "}
+                  <div className="card-body">
+                    <center>
+                      <h6 class="card-title">Contribute</h6>
+                      <form
+                        action="https://formsubmit.co/sivaprakash138@gmail.com"
+                        method="POST"
+                        className="form-cls"
+                      >
+                        <label className="mt-2 mb-2 inputWidth">
+                          Have any requests ? Let us know.
+                        </label>
+                        <br />
+                        <label className="mt-2 mb-2 inputWidth">
+                          Have any Links ? Join us now.
+                        </label>
+                        <input
+                          type="text"
+                          name="media"
+                          className="form-control mt-2 mb-2 inputWidth"
+                          id="formGroupExampleInput"
+                          placeholder="Media Name"
+                          onFocus={(e) => (e.target.placeholder = "")}
+                          onBlur={(e) => (e.target.placeholder = "Media Name")}
+                          autocomplete="off"
+                        ></input>
+                        <input
+                          type="text"
+                          name="link"
+                          className=" form-control mt-2 mb-2 inputWidth"
+                          id="formGroupExampleInput"
+                          placeholder="Link ( if Any )"
+                          onFocus={(e) => (e.target.placeholder = "")}
+                          onBlur={(e) =>
+                            (e.target.placeholder = "Link ( if Any )")
+                          }
+                          autocomplete="off"
+                        ></input>
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value="https://quarantine-life.now.sh/"
+                        ></input>
+                        <input
+                          type="hidden"
+                          name="_captcha"
+                          value="false"
+                        ></input>
+                        <label className="mt-2 mb-2 inputWidth">
+                          Wanna be notified ? Give you mail id or Social Media
+                          Usernames. W'll ping you onces you are served.
+                        </label>
+                        <input
+                          type="text"
+                          name="link"
+                          className=" form-control mt-2 mb-2 inputWidth"
+                          id="formGroupExampleInput"
+                          placeholder="Contact Id ( Optional )"
+                          onFocus={(e) => (e.target.placeholder = "")}
+                          onBlur={(e) =>
+                            (e.target.placeholder = "Contact Id ( Optional )")
+                          }
+                          autocomplete="off"
+                        ></input>
+                        <button
+                          type="submit"
+                          id="submit"
+                          onSubmit={(e) => {
+                            handleSubmit(e);
+                          }}
+                          className="mx-2 mt-3"
+                        >
+                          Send
+                        </button>
+                        <button
+                          type="button"
+                          onClick={(e) => setModelOpen(false)}
+                          className="mx-2 mt-3"
+                        >
+                          Close
+                        </button>
+                      </form>
+                    </center>
                   </div>
                 </div>
               </div>
-            ))
+            </div>
           )}
         </div>
       </main>
-      {/* <footer> */}
       <i
         className="fa fa-plus float"
         onClick={(e) => {
@@ -145,7 +166,6 @@ function App() {
           setModelOpen(!modelOpen);
         }}
       ></i>
-      {/* </footer> */}
     </div>
   );
 }
