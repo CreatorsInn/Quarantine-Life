@@ -130,7 +130,7 @@ dialog input {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 720px) {
   .search-box {
     border: 1px solid rgba(163, 160, 164, 0.85);
     text-align: center;
