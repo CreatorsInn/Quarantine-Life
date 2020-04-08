@@ -23,11 +23,6 @@ function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
   const [modelOpen, setModelOpen] = React.useState(false);
 
-  useEffect(() => {
-    let touchEvent = "ontouchstart" in window ? "touchstart" : "click";
-    document.getElementById("submit").addEventListener(touchEvent, handleSubmit);
-  });
-
   return (
     <div>
       <nav
@@ -130,7 +125,7 @@ function App() {
                           }
                           autocomplete="off"
                         ></input>
-                        <button type="submit" id="submit" className="mx-2 mt-3">
+                          <button type="submit" id="submit" onSubmit={e => { handleSubmit(e) }} className="mx-2 mt-3">
                           Send
                         </button>
                         <button
