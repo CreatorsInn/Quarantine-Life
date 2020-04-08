@@ -75,6 +75,11 @@ const links = [
       "magnet:?xt=urn:btih:a774386dfc2c48349640043b402e6a9d2e1d0e11&dn=Money+Heist+%28La+Casa+De+Papel%29+Complete+Season+1+English+HD+720p&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80",
   },
   {
+    NAME: "Chernobyl Season 01 (2019)",
+    LINK:
+      "magnet:?xt=urn:btih:95E8D04E47F0D9CB8BF00EC8775C926126A65236&dn=Chernobyl.COMPLETE.Season.1.S01.1080p.AMZN.WEB-DL.x265-HETeam&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Feddie4.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fshadowshq.yi.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Finferno.demonoid.pw%3A3391%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fpeerfect.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
+  },
+  {
     NAME: "Game Of Thrones ( Season 01 - 07 ) ( 2011 - 2017 )",
     LINK:
       "magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:7cdb9e508c40f0a71a23f68490d32591947ab603&dn=www.TamilRockerrs.pl - Game of Thrones - Complete Season (1 to 7) - 480p English BDRip - x264 - 24GB - ESub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
@@ -83,6 +88,11 @@ const links = [
     NAME: "Game Of Thrones Season 08 ( 2019 )  ",
     LINK:
       "magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce', 'extension': 'avi', 'stream': 'magnet:?xt=urn:btih:fb4b27d36048c10af9077c157b7f48ee407eb222&dn=Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce",
+  },
+  {
+    NAME: "Vikings Season 06 ( 2020 )  ",
+    LINK:
+      "magnet:?xt=urn:btih:0E2A2D091403D86AB1BCD053E9E4848F0E87884A&dn=Vikings+S06+E01-10+WebRip+720p+Hindi+English+AAC+5.1+x264+ESub+-+mkvCinemas+%5BTelly%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce",
   },
   {
     NAME: "Vikings Season 05 ( 2019 )  ",
