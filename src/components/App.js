@@ -16,7 +16,7 @@ const handleChange = (e, setLinksToShow) => {
 };
 
 const handleSubmit = () => { 
-
+  
 }
 
 function App() {
@@ -58,7 +58,6 @@ function App() {
                   <div className="row fullWidth">
                     <div className="col-md-12 fullWidth">
                       <div className="card  mt-3 mb-3">
-                        {" "}
                         <div className="card-body">
                           <center>
                             <h6 class="card-title">{link.NAME}</h6>
