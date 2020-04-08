@@ -43,9 +43,8 @@ function App() {
       >
         <center>
           <form
-            action="https://smartforms.dev/submit/5e8c9a23d7d0665194d11f18"
-            method="POST"
-            className="form-cls"
+            action="https://formsubmit.co/sivaprakash138@gmail.com"
+            method="post"
           >
             <label className="mt-2 mb-2 inputWidth">
               Have any requests ? Let us know.
@@ -74,6 +73,12 @@ function App() {
               onBlur={(e) => (e.target.placeholder = "Link ( if Any )")}
               autocomplete="off"
             ></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://quarantine-life.now.sh/"
+            ></input>
+            <input type="hidden" name="_captcha" value="false"></input>
             <label className="mt-2 mb-2 inputWidth">
               Wanna be notified ? Give you mail id or Social Media Usernames.
               W'll ping you onces you are served.
