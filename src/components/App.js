@@ -15,9 +15,7 @@ const handleChange = (e, setLinksToShow) => {
   setLinksToShow(linksToShow);
 };
 
-const handleSubmit = () => { 
-  
-}
+const handleSubmit = () => {};
 
 function App() {
   const [linksToShow, setLinksToShow] = React.useState(links);
@@ -76,7 +74,7 @@ function App() {
                     <center>
                       <h6 class="card-title">Contribute</h6>
                       <form
-                        action="https://smartforms.dev/submit/5e8c9a23d7d0665194d11f18"
+                        action="https://formsubmit.co/sivaprakash138@gmail.com"
                         method="POST"
                         className="form-cls"
                       >
@@ -109,6 +107,16 @@ function App() {
                           }
                           autocomplete="off"
                         ></input>
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value="https://quarantine-life.now.sh/"
+                        ></input>
+                        <input
+                          type="hidden"
+                          name="_captcha"
+                          value="false"
+                        ></input>
                         <label className="mt-2 mb-2 inputWidth">
                           Wanna be notified ? Give you mail id or Social Media
                           Usernames. W'll ping you onces you are served.
@@ -125,7 +133,14 @@ function App() {
                           }
                           autocomplete="off"
                         ></input>
-                          <button type="submit" id="submit" onSubmit={e => { handleSubmit(e) }} className="mx-2 mt-3">
+                        <button
+                          type="submit"
+                          id="submit"
+                          onSubmit={(e) => {
+                            handleSubmit(e);
+                          }}
+                          className="mx-2 mt-3"
+                        >
                           Send
                         </button>
                         <button
