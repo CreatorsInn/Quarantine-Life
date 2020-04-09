@@ -44,6 +44,7 @@ function App() {
                 <h6 className="card-title">Not Found</h6>
               </center>
             ) : (
+            <React.Fragment>
              <h6 className="text-center mt-3 mb-3">
         <strong>NOTE : </strong>Use torrent clients like bitTorrent , μTorrent
         etc. to download.
@@ -63,6 +64,7 @@ function App() {
                     </div>
                   </div>
                 </div>
+                </React.Fragment>
               ))
             )}
           </React.Fragment>
