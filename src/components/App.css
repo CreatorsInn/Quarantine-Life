@@ -41,9 +41,33 @@ main {
   cursor: pointer;
 }
 
-
 .inputWidth {
   width: 80%;
+}
+
+.qu-btn {
+  border-color: rgb(8, 1, 1);
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: white;
+  padding: 8px 20px 8px 20px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.qu-btn:hover {
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: #000;
+  padding: 8px 20px 8px 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
 }
 
 /*====================================================================
@@ -66,10 +90,10 @@ main {
   }
 
   main {
-  padding: 0;
-  margin: 0% 10%;
-  width: 80%;
-}
+    padding: 0;
+    margin: 0% 10%;
+    width: 80%;
+  }
 
   .search-box:focus {
     outline: none;
@@ -93,7 +117,7 @@ main {
     padding: 0;
     margin: 0% 5%;
     width: 90%;
- }
+  }
 
   .search-box:focus {
     outline: none;
