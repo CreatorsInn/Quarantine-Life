@@ -49,7 +49,7 @@ function App() {
         <strong>NOTE : </strong>Use torrent clients like bitTorrent , μTorrent
         etc. to download.
       </h6>
-              linksToShow.map((link) => (
+              {linksToShow.map((link) => (
                 <div className="row fullWidth">
                   <div className="col-md-12 fullWidth">
                     <div className="card  mt-3 mb-3">
@@ -64,7 +64,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-              ))
+              )) }
               </React.Fragment>
             )}
           </React.Fragment>
