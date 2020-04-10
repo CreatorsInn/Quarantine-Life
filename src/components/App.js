@@ -36,10 +36,6 @@ function App() {
           autocomplete="off"
         ></input>
       </nav>{" "}
-      <h6 className="text-center mt-3 mb-3">
-        <strong>NOTE : </strong>Use torrent clients like bitTorrent , μTorrent
-        etc. to download.
-      </h6>
       <main>
         {!modelOpen ? (
           <React.Fragment>
@@ -48,7 +44,12 @@ function App() {
                 <h6 className="card-title">Not Found</h6>
               </center>
             ) : (
-              linksToShow.map((link) => (
+            <React.Fragment>
+             <h6 className="text-center mt-3 mb-3">
+        <strong>NOTE : </strong>Use torrent clients like bitTorrent , μTorrent
+        etc. to download.
+      </h6>
+              {linksToShow.map((link) => (
                 <div className="row fullWidth">
                   <div className="col-md-12 fullWidth">
                     <div className="card  mt-3 mb-3">
@@ -63,7 +64,8 @@ function App() {
                     </div>
                   </div>
                 </div>
-              ))
+              )) }
+              </React.Fragment>
             )}
           </React.Fragment>
         ) : (
