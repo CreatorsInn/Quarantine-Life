@@ -254,6 +254,11 @@ const links = [
     LINK:
       "magnet:?xt=urn:btih:94D7E4A477B264708AF13918E93B2E55717BF84C&dn=www.TamilRockers.li%20-%20Indiana%20Jones%20Quadrilogy%20%281981%20to%202008%29%5b720p%20-%20BDRip%27s%20-%20%5bTamil%20%283%29%20%2b%20Telugu%20%283%29%20%2b%20Hindi%20%283%29%20%2b%20Eng%5d&tr=http%3a%2f%2fmgtracker.org%3a6969%2fannounce&tr=http%3a%2f%2fp4p.arenabg.ch%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce",
   },
+  {
+    NAME: "Asuraguru (2020)",
+    LINK:
+      "magnet:?xt=urn:btih:8C6FD4675FB3011EB70E6650E473627E76754330&dn=www.TamilRockers.ws%20-%20Asuraguru%20%282020%29%5bTamil%20HDRip%20-%20x264%20-%20700MB%20-%20ESubs%5d.mkv&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a1337%2fannounce&tr=udp%3a%2f%2fzer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.ilibr.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.sktorrent.net%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2970%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2840%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce",
+  },
 ];
 
 export default links;
